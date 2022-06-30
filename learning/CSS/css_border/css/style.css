@@ -1,0 +1,15 @@
+.border-style{border: 1px solid red;border: 1px solid red;
+    border-top-color: red;
+    border-top-style: dashed;
+    border-top-width: 1px;
+    border-right-color: green;
+    border-right-style: dotted;
+    border-right-width: 5px;
+    border-bottom-color: blue;
+    border-bottom-style: wavy;
+    border-bottom-width: 7px;
+    border-left-color: blueviolet;
+    border-left-style: line;
+    border-left-width: 9px;
+   
+}

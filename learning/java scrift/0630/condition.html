@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>If condition</title>
+</head>
+
+<body>
+    <h1 id="h1-title">If Condition</h1>
+
+
+    <input type="text" name="" id="" oninput="changetext()">
+    <p>Result : <span id="agelevel"></span></p>
+
+    <h2 id="h2-title">Condition</h2>
+    <input type="text" name="" id="">
+    <p>Question : <span id="age"></span></p>
+
+    <script>
+        let htitle = document.getElementById('h1-title');
+        console.log(htitle.innerText);
+        htitle.innerText = 'blah blah';
+
+        function changetext() {
+            console.log('Calling Me')
+        }
+
+
+        let h2title = document.getElementById('h2-title')
+        h2title.innerText = 'hello guys';
+        h2title.style.color = 'red';
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+.border-style {
+    border: 2px solid red;
+}
+
+.padding-style {
+    color: purple;
+    padding: 20px 40px 50px 60px;
+}
+
+.margin-style {
+    margin: 100px;
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+}
+
+.rounded-border {
+    border-radius: 19px;
+}
+
+.rounded-border-circle {
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.linkbox {
+    display: inline-block;
+    border: 2px solid hotpink;
+    padding: 5px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
